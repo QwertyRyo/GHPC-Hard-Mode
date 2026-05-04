@@ -70,12 +70,12 @@ namespace Hard_Mode
         GameObject prefab = null;
         if (meta.PrefabReference.Asset != null)
         {
-            LoggerInstance.Msg("null asset else NOT ran");
+            //LoggerInstance.Msg("null asset else NOT ran");
             prefab = meta.PrefabReference.Asset as GameObject;
         }
         else
         {
-            LoggerInstance.Msg("null asset else ran");
+            //LoggerInstance.Msg("null asset else ran");
             var handle = meta.PrefabReference.LoadAssetAsync<GameObject>();
             yield return handle;
             prefab = handle.Result;
