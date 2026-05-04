@@ -12,4 +12,4 @@ Known Bugs:
 - Enemies not required to be killed to finish mission.
 
 Acknowledgements:
-[ATLAS] (https://github.com/thebeninator) for programming assistance
+[ATLAS](https://github.com/thebeninator) for programming assistance
