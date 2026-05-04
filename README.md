@@ -1,4 +1,4 @@
-#Hard Mode
+# Hard Mode
 
 Version 1.0 of GHPC Hard Mode
 Adds additional enemies to base game maps. Currently only supports Patton Pass and Abrams Alley.
